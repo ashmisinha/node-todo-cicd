@@ -4,9 +4,11 @@ Follow below steps in Jenkins -
 2. Add the GitHub URL of this project in the 'Source Code Management' section.
 3. Select 'GitHub hook trigger for GITScm polling' in 'Build Triggers' section.
 4. Add the below build steps to start the container and save the project.
+   
+     ```
      docker build -t node-todo-app .
      docker run -d --name to-do -p 8000:8000 node-todo-app
-
+     ```
 
 Follow below steps in this GitHub Project-
 
