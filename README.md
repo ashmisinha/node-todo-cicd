@@ -1,3 +1,8 @@
+## Prerequisites
+
+1. Open port 8000 from your instance's inbound rule (security group) of the server
+2. Docker is installed and running on your server. 
+
 ## Follow below steps in Jenkins for this project -
 
 1. Create a new project in Jenkins and add a brief instruction about the project.
