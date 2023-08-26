@@ -1,4 +1,4 @@
-Follow below steps in Jenkins -
+## Follow below steps in Jenkins -
 
 1. Create a new project in Jenkins and add a brief instruction about the project.
 2. Add the GitHub URL of this project in the 'Source Code Management' section.
@@ -10,7 +10,7 @@ Follow below steps in Jenkins -
      docker run -d --name to-do -p 8000:8000 node-todo-app
      ```
 
-Follow below steps in this GitHub Project-
+## Follow below steps in "GitHub" for this project -
 
 1. Go to the settings of this project and in the Webhooks section, Click on 'Add webhook'.
 2. In the payload URL, add the public IP address with the port on which you are accessing Jenkins and 'github-webhook/'.
