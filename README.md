@@ -20,6 +20,6 @@
 1. Go to the settings of this project and in the Webhooks section, Click on 'Add webhook'.
 2. In the payload URL, add the public IP address with the port on which you are accessing Jenkins and 'github-webhook/'.
 So, it will look like 'http://54.208.36.209:8080/github-webhook/'.
-3. Select 'application/json' in Content Type and select 'Just the push event' in next option and then, click on 'Add webhook'.
+3. Select 'application/json' in Content Type and select 'Just the push event' in next option and then click on 'Add webhook'.
 Now, make any changes in this project and commit them.
 4. In Jenkins, that one build will be created after you commit. So, GitHub webhooks are used to trigger a build in Jenkins whenever someone commits to the project if we select 'Just the push event'.
